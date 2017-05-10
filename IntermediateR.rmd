@@ -66,6 +66,17 @@ employee_6   22   20   29   26   23   22   29
 [1] 16
 ```
 ```
+if (condition1) {
+  expr1
+} else if (condition2) {
+  expr2
+} else if (condition3) {
+  expr3
+} else {
+  expr4
+}
+```
+```
 Prints out "Try to be more visible!" when the if-condition on num_views is not met.
 num_views의 if-condition이 충족되지 않을 때 "더보기 좋도록 노력하십시오!"라고 인쇄하라.
 
@@ -73,10 +84,35 @@ Prints out "Try to be more visible!" when the if-condition on num_views does not
 if-condition이 유지되지 않으면
 
 You can extend them with the appropriate statements.
-You can add as many else if statements as you like. Keep in mind that R ignores the reminder of the control structure once a condition has been found that is TRUE and the corresponding expressions have been executed.
+You can add as many else if statements as you like.
+Keep in mind that R ignores the reminder of the control structure
+once a condition has been found that is TRUE and the corresponding expressions have been executed.
+In this exercise, you will combine everything that you've learned so far.
 ```
 2. Loops
-
+```
+# Initialize the speed variable
+> speed <- 64
+> 
+> # Code the while loop
+> while (speed > 30 ) {
+    print("Slow down!")
+    speed <- speed - 7
+    
+  }
+[1] "Slow down!"
+[1] "Slow down!"
+[1] "Slow down!"
+[1] "Slow down!"
+[1] "Slow down!"
+> 
+> # Print out the speed variable
+> speed
+[1] 29
+```
+```
+Have a look at the code on the right.
+```
 3. Functions
 
 4. The apply family
