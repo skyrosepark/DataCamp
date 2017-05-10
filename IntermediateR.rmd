@@ -1,5 +1,5 @@
 1. Conditionals and Control Flow
-
+```
 # The social data has been created for you
 > linkedin <- c(16, 9, 13, 5, 2, 17, 14)
 > facebook <- c(17, 7, 5, 16, 8, 13, 14)
@@ -41,7 +41,7 @@
 > # How often does facebook equal or exceed linkedin times two?
 > sum(facebook >= linkedin * 2)
 [1] 2
-
+```
 2. Loops
 
 3. Functions
