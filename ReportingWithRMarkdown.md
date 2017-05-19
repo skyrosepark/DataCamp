@@ -24,3 +24,14 @@ The `ggvis` plot gives us a nice visualization of the `mtcars` data set:
 ```
 
 [example](https://rpubs.com/potentialwjy/Rmarkdown2)
+
+[reference](http://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
+
+
+### Specify knitr and pandoc options
+---
+title: "Demo"
+output:
+  pdf_document:
+    highlight: zenburn
+---
