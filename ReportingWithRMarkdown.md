@@ -4,24 +4,23 @@
 3. The third and last code chunk shows the output of the second code chunk, without the code that generated it. Use the ref.label option.
 
 ```
-```{r message=FALSE}
+{r message=FALSE}
 library(dplyr)
 library(ggvis)
-```
+
 ```
 
 ```
-```{r chained, results='hide'}
+{r chained, results='hide'}
 mtcars %>%
   group_by(factor(cyl)) %>%
   ggvis(~mpg, ~wt, fill = ~cyl) %>%
   layer_points()
 ```
-```
 
 The `ggvis` plot gives us a nice visualization of the `mtcars` data set:
 
 ```
-```{r ref.label='chained', echo=FALSE}
-```
+{r ref.label='chained', echo=FALSE}
+
 ```
