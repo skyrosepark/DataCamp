@@ -62,3 +62,40 @@ output:
 ---
 ```
 주의 : 'true' should be lower case.
+
+
+### Brand your reports with style sheets
+custom CSS example
+```
+h1{
+  color: white;
+  padding: 10px;
+  background-color: #3399ff
+}
+
+ul {
+  list-style-type: square;
+}
+
+.MathJax_Display {
+  padding: 0.5em;
+  background-color: #eaeff3
+}
+```
+
+```
+---
+title: "Demo"
+output:
+  html_document:
+    css: styles.css
+---
+
+theme option of html_document
+```
+title: "Demo"
+output:
+  html_document:
+    theme: default/cerulean/journal/flatly/readable/spacelab/united/cosmo
+```
+```
