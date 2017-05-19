@@ -29,6 +29,7 @@ The `ggvis` plot gives us a nice visualization of the `mtcars` data set:
 
 
 ### Specify knitr and pandoc options
+The YAML header below overwrites the default code highlight style of the pdf_document template to create a document that uses the zenburn style:
 ```
 ---
 title: "Demo"
@@ -37,3 +38,27 @@ output:
     highlight: zenburn
 ---
 ```
+
+The YAML header below overwrites the default bootstrap CSS theme of the html_document template.
+```
+---
+title: "Demo"
+output:
+  html_document:
+    theme: spacelab
+---
+```
+
+Add a table of contents
+```
+---
+title: "Ozone"
+author: "Anonymous"
+date: "January 1, 2015"
+output: 
+  html_document :
+    toc : true
+    number_sections : true
+---
+```
+주의 : 'true' should be lower case.
