@@ -29,9 +29,11 @@ The `ggvis` plot gives us a nice visualization of the `mtcars` data set:
 
 
 ### Specify knitr and pandoc options
+```
 ---
 title: "Demo"
 output:
   pdf_document:
     highlight: zenburn
 ---
+```
