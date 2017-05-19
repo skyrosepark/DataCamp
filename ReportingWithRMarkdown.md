@@ -24,3 +24,5 @@ The `ggvis` plot gives us a nice visualization of the `mtcars` data set:
 {r ref.label='chained', echo=FALSE}
 
 ```
+
+[example](https://rpubs.com/potentialwjy/Rmarkdown2)
