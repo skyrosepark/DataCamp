@@ -1,6 +1,8 @@
 
 [수식없이 이해하는 CNN(Convolution Neural Network)과 RNN(Recurrent Neural Network)|작성자 zzozzo](http://horajjan.blog.me/220989551317)
+
 '최신 인공지능, 쉽게 이해하고 넓게 활용하기' 인용
+
 딥러닝의 사고나 기법은 새로운 것이 아닙니다. 그럼 왜 최근 몇 년동안 급격하게 딥러닝이 주목받게 된 것일까요?
 
 #### 딥러닝의 과제인 '과적합'(over-fitting)의 회피
